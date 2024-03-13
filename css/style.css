@@ -1,0 +1,60 @@
+/***** common style *****/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.boxed {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+/***** header *****/
+
+header {
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo-img{
+    width:auto;
+    height: 30px;
+    align-items: center;
+}
+
+
+.nav-column {
+    padding: 1rem;
+}
+
+.nav-column-logo{
+    width: 50%;
+
+}
+
+.nav-column-gender{
+    width: 25%;
+    
+}
+
+.nav-column-enti{
+    width: 25%
+    
+}
+
